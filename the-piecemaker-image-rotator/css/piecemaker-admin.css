@@ -1,0 +1,219 @@
+/* css for piecemaker  */
+
+a{text-decoration:none;}
+
+.blue {
+	height:3px; 
+	background:#238DCB;
+	position:relative; z-index:10; 
+	clear:both;
+	#margin-top:-10px
+	}
+	
+#options_piecemaker{margin:10px 0 0 0}
+#options_piecemaker ul.tabs li {
+	display:inline-block;
+	#float:left;
+}
+#options_piecemaker ul.tabs li a {
+	font-family:'Myriad Pro';
+	line-height:35px;
+	height:35px;
+	font-weight:bold;
+	font-size:16px;
+	color:#717171;
+	padding:8px 0 3px 0;
+	margin:0 5px;
+	border:1px solid #D7D7D7;
+	border-bottom: none;
+	background:#ffffff;
+	-moz-border-radius-topleft: 4px;
+	-moz-border-radius-topright: 4px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	text-transform: capitalize;	
+	position:relative;top:11px;z-index:5;
+}
+#options_piecemaker ul.tabs li a span{
+	background:#eeeeee;
+	padding:7px 13px 5px 13px;	}
+
+
+#options_piecemaker ul.tabs li.active a,
+#options_piecemaker ul.tabs li a:hover,
+#options_piecemaker ul.tabs li a:focus{
+	position:relative;top:13px;
+	z-index:15;background:#f9f9f9;
+}
+
+#options_piecemaker ul.tabs li.active a span,
+#options_piecemaker ul.tabs li a:hover span,
+#options_piecemaker ul.tabs li a:focus span {
+	color:#469ACB;
+	background:#f9f9f9;
+	position:relative;z-index:15}
+
+div.tab_content {display: none;}
+div.tab_content_active {display: block;}
+
+input.piecemaker_properties,
+input.add_page,
+input.add_transition,
+input.view_transitions,
+input.view_pages,
+input.delete,
+input.btn_up,
+input.btn_down,
+input.btn_edit{
+	border:none;
+	width:36px;
+	height:22px;
+	padding: 0 0 ;
+	text-indent:-999em;
+	#text-indent:50px;
+	cursor:pointer;
+	}
+
+input.add_page{background:  url('../img/icons.png') no-repeat 0px 0px;}
+input.add_page:hover{background:  url('../img/icons.png') no-repeat -36px 0px;}
+input.add_page:focus{background:  url('../img/icons.png') no-repeat -72px 0px;}
+
+input.piecemaker_properties{background:  url('../img/icons.png') no-repeat 0px -22px;}
+input.piecemaker_properties:hover{background:  url('../img/icons.png') no-repeat -36px -22px;}
+input.piecemaker_properties:focus{background:  url('../img/icons.png') no-repeat -72px -22px;}
+
+input.delete{background:  url('../img/icons.png') no-repeat 0px -44px;}
+input.delete:hover{background:  url('../img/icons.png') no-repeat -36px -44px;}
+input.delete:focus{background:  url('../img/icons.png') no-repeat -72px -44px;}
+
+input.view_pages{background:  url('../img/icons.png') no-repeat 0px -66px;}
+input.view_pages:hover{background:  url('../img/icons.png') no-repeat -36px -66px;}
+input.view_pages:focus{background:  url('../img/icons.png') no-repeat -72px -66px;}
+
+input.btn_down{background:  url('../img/icons.png') no-repeat 0px -88px;}
+input.btn_down:hover{background:  url('../img/icons.png') no-repeat -36px -88px;}
+input.btn_down:focus{background:  url('../img/icons.png') no-repeat -72px -88px;}
+
+input.btn_up{background:  url('../img/icons.png') no-repeat 0px -110px;}
+input.btn_up:hover{background:  url('../img/icons.png') no-repeat -36px -110px;}
+input.btn_up:focus{background:  url('../img/icons.png') no-repeat -72px -110px;}
+
+input.btn_edit{background:  url('../img/icons.png') no-repeat 0px -132px;}
+input.btn_edit:hover{background:  url('../img/icons.png') no-repeat -36px -132px;}
+input.btn_edit:focus{background:  url('../img/icons.png') no-repeat -72px -132px;}
+
+input.piecemaker_properties_alt{background:  url('../img/icons.png') no-repeat 0px -88px;}
+input.piecemaker_properties_alt:hover{background:  url('../img/icons.png') no-repeat 0px -88px;}
+input.piecemaker_properties_alt:focus{background:  url('../img/icons.png') no-repeat 0px -88px;}
+
+input.add_transition{background:  url('../img/icons.png') no-repeat 0px -154px;}
+input.add_transition:hover{background:  url('../img/icons.png') no-repeat -36px -154px;}
+input.add_transition:focus{background:  url('../img/icons.png') no-repeat -72px -154px;}
+
+input.view_transitions{background:  url('../img/icons.png') no-repeat 0px -176px;}
+input.view_transitions:hover{background:  url('../img/icons.png') no-repeat -36px -176px;}
+input.view_transitions:focus{background:  url('../img/icons.png') no-repeat -72px -176px;}
+
+.form-table{width:100%;}
+
+.form-table td.middle input.radio {width:20px;}
+.form-table th{margin-top: 5px;}
+
+.form-table tr {
+	background: #f9f9f9;
+	border: 1px solid #E4E4E4;
+	margin: 0;
+	padding-left: 3px;
+
+	}
+
+.form-table td.under {
+	width:15%;
+	padding-left:30px;
+	font-weight:bold;
+	font-size:13px;
+	}
+
+.form-table td.desc{width:40%;}
+
+.form-table .table_heading{
+	background: #eeeeee;
+	text-transform: capitalize;	
+	}
+	
+.form-table td.under.parent{padding-left:60px}
+
+.form-table td.middle{
+	width:45%;
+	text-align:center;
+	padding-left: 50px;	
+	}
+	
+.form-table td.middleLabel{
+	width:45%;
+	text-align:left;
+	padding-left: 68px;	
+}
+
+	
+.form-table td.middle input{width:95%;}
+.form-table td.middle textarea.fat{width:95%;height:200px;}
+.form-table td.middle textarea.thick{width:95%;height:46px; }
+
+.form-table td.middle select{width:95%;}
+
+td label {font-weight:bold;font-size: 12px;}
+
+.form-table td p {
+	font-size: 10px;
+	color: #BBBBBB;
+	font-weight:lighter;
+	}
+
+.form-table .option_title{width:175px;}
+
+.form-table .option_title h3{ 
+	font-weight:bold;
+	font-size:14px;
+	padding:0;
+	margin:5px
+}
+
+.form-table .option_value{margin:0 10px;}
+
+.form-table .option_description{margin:0 10px;}
+.form-table .option_description p{font-size:10px}
+
+.clear{clear:both;height:5px;}
+
+.left{float:left}
+.right{float:right}
+
+.form-table .wide{width:550px;}
+
+.form-table .narrow{width:150px}
+
+input.piecemaker_btn{
+	background: #21759B !important;
+	color: #ffffff !important;
+	font-size:12px !important;
+	padding:5px 15px!important;
+	}
+	
+.form-table td.middle input.check_box{width:20px !important;float: left; padding-left:50px}
+	
+hr {height:1px}
+
+.clear{height:0px; clear:both}
+
+
+input[type="submit"]::-moz-focus-inner, 
+input[type="button"]::-moz-focus-inner
+    {border : 0px;}
+	
+input[type="submit"]:focus, 
+input[type="button"]:focus
+    {outline : none;}
+
+
+
